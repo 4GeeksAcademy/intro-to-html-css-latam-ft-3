@@ -124,5 +124,19 @@ padding-right: 10px;
 padding-bottom: 10px;
 padding-left: 10px;
 
+font-size: 16px;
 
+font-size: .5em;
 */
+
+.box1 {
+    /* font-size: 2em; */
+}
+
+.box2 {
+    font-size: 1em;
+}
+
+.box3 {
+    font-size: 1.5em;
+}
