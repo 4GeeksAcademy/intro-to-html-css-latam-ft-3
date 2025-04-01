@@ -1,0 +1,128 @@
+/*  
+(id, class, element)
+selector {
+    propiedad: valor;
+}
+
+*/
+
+/* Selector de Id */
+#home {
+    width: 100%;
+    background-color: blue;
+}
+
+/* Selector de Clase */
+.titulo {
+    font-size: 20px;
+    font-family: Arial;
+}
+
+/* Selector de Tipo (Etiqueta) */
+p {
+    color: rgb(34, 165, 176);
+}
+
+/* Selector Universal */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/* Selector Atributo */
+input[type=email]{
+    border: 2px solid red;
+}
+
+/* Selector Descendiente */
+div p {
+    color: green;
+}
+
+/* Selector Hijo */
+div > p {
+    color: blue;
+}
+
+/* Selector Hermano */
+h3 ~ p {
+    color: firebrick;
+}
+
+/* Selector Adyacente */
+h3 + p {
+    color:goldenrod;
+    font-size: 14px;
+}
+
+/* Selector de Grupo */
+h1, p, a {
+    font-size: 18px;
+}
+
+.titulo, #titulo2, p, h3 + p {
+    color: blue;
+}
+
+/* Pseudo-clase */
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+.box {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+
+.box:hover {
+    background-color: blueviolet;
+}
+
+p::first-letter {
+    font-size: 40px;
+}
+
+/* Pseudo-Elementos */
+.saludo::before {
+    content: 'Hola';
+}
+
+.saludo::after {
+    content: 'Como están?'
+}
+
+.sample::first-line {
+    line-height: 10%;
+}
+
+ul li:nth-child(2) {
+    color: wheat;
+}   
+
+/* 
+t = top r = right b = bottom l = left
+
+margin: 10px; trbl
+margin: 10px 10px; tb rl
+margin: 10px 10px 10px; t rl b
+margin: 10px 10px 10px 10px; t r b l
+
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+
+padding: 10px; trbl
+padding: 10px 10px; tb rl
+padding: 10px 10px 10px; t rl b
+padding: 10px 10px 10px 10px; t r b l
+
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+
+
+*/
